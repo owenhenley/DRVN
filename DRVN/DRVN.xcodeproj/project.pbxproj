@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E1CFD9B21AB2AAB001B4E83 /* DELETEME-MODEL in Resources */ = {isa = PBXBuildFile; fileRef = 3E1CFD9A21AB2AAB001B4E83 /* DELETEME-MODEL */; };
-		3E1CFD9F21AB2AAB001B4E83 /* DELETEME-MODELCONTROLLER in Resources */ = {isa = PBXBuildFile; fileRef = 3E1CFD9E21AB2AAB001B4E83 /* DELETEME-MODELCONTROLLER */; };
-		3E1CFDA221AB2AAB001B4E83 /* DELETEME-VIEWCONTROLLER in Resources */ = {isa = PBXBuildFile; fileRef = 3E1CFDA121AB2AAB001B4E83 /* DELETEME-VIEWCONTROLLER */; };
 		3E1CFDA721AB2AAB001B4E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1CFDA521AB2AAB001B4E83 /* Main.storyboard */; };
 		3E1CFDAA21AB2AAB001B4E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1CFDA921AB2AAB001B4E83 /* AppDelegate.swift */; };
 		3E1CFDAC21AB2AAC001B4E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1CFDAB21AB2AAC001B4E83 /* Assets.xcassets */; };
@@ -18,9 +15,6 @@
 
 /* Begin PBXFileReference section */
 		3E1CFD9621AB2AAB001B4E83 /* DRVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E1CFD9A21AB2AAB001B4E83 /* DELETEME-MODEL */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DELETEME-MODEL"; sourceTree = "<group>"; };
-		3E1CFD9E21AB2AAB001B4E83 /* DELETEME-MODELCONTROLLER */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DELETEME-MODELCONTROLLER"; sourceTree = "<group>"; };
-		3E1CFDA121AB2AAB001B4E83 /* DELETEME-VIEWCONTROLLER */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DELETEME-VIEWCONTROLLER"; sourceTree = "<group>"; };
 		3E1CFDA621AB2AAB001B4E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E1CFDA921AB2AAB001B4E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E1CFDAB21AB2AAC001B4E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,9 +52,6 @@
 		3E1CFD9821AB2AAB001B4E83 /* DRVN */ = {
 			isa = PBXGroup;
 			children = (
-				3E1CFDAB21AB2AAC001B4E83 /* Assets.xcassets */,
-				3E1CFDAD21AB2AAC001B4E83 /* LaunchScreen.storyboard */,
-				3E1CFDB021AB2AAC001B4E83 /* Info.plist */,
 				3E1CFD9921AB2AAB001B4E83 /* Models */,
 				3E1CFD9C21AB2AAB001B4E83 /* Controllers */,
 				3E1CFDA321AB2AAB001B4E83 /* Views */,
@@ -72,7 +63,6 @@
 		3E1CFD9921AB2AAB001B4E83 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3E1CFD9A21AB2AAB001B4E83 /* DELETEME-MODEL */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -89,7 +79,6 @@
 		3E1CFD9D21AB2AAB001B4E83 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E1CFD9E21AB2AAB001B4E83 /* DELETEME-MODELCONTROLLER */,
 			);
 			name = "Model Controllers";
 			sourceTree = "<group>";
@@ -97,7 +86,6 @@
 		3E1CFDA021AB2AAB001B4E83 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3E1CFDA121AB2AAB001B4E83 /* DELETEME-VIEWCONTROLLER */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -113,6 +101,7 @@
 		3E1CFDA421AB2AAB001B4E83 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				3E1CFDAD21AB2AAC001B4E83 /* LaunchScreen.storyboard */,
 				3E1CFDA521AB2AAB001B4E83 /* Main.storyboard */,
 			);
 			name = Storyboards;
@@ -121,6 +110,8 @@
 		3E1CFDA821AB2AAB001B4E83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3E1CFDB021AB2AAC001B4E83 /* Info.plist */,
+				3E1CFDAB21AB2AAC001B4E83 /* Assets.xcassets */,
 				3E1CFDA921AB2AAB001B4E83 /* AppDelegate.swift */,
 			);
 			name = Resources;
@@ -184,9 +175,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1CFDA221AB2AAB001B4E83 /* DELETEME-VIEWCONTROLLER in Resources */,
-				3E1CFD9B21AB2AAB001B4E83 /* DELETEME-MODEL in Resources */,
-				3E1CFD9F21AB2AAB001B4E83 /* DELETEME-MODELCONTROLLER in Resources */,
 				3E1CFDAF21AB2AAC001B4E83 /* LaunchScreen.storyboard in Resources */,
 				3E1CFDA721AB2AAB001B4E83 /* Main.storyboard in Resources */,
 				3E1CFDAC21AB2AAC001B4E83 /* Assets.xcassets in Resources */,
