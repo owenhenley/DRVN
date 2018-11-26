@@ -20,7 +20,7 @@ class RoundedShadowButton: UIButton {
         originalSize = self.frame
         self.layer.cornerRadius = 5
         self.layer.shadowRadius = 5
-        self.layer.shadowColor = UIColor.lightGray.cgColor
+        self.layer.shadowColor = UIColor.darkGray.cgColor
         self.layer.shadowOpacity = 0.2
         self.layer.shadowOffset = CGSize(width: 0, height: 2)
     }
@@ -52,7 +52,7 @@ class RoundedShadowButton: UIButton {
                 if finished == true {
                     activityIndicator.startAnimating()
                     // Show activity indicator
-                    activityIndicator.center = CGPoint(x: self.frame.width / 2 + 1, y: self.frame.height / 2 + 1)
+                    activityIndicator.center = CGPoint(x: self.frame.width / 2 + 1.5, y: self.frame.height / 2 + 1.5)
                     UIView.animate(withDuration: 0.2, animations: {
                         activityIndicator.alpha = 1
                     })

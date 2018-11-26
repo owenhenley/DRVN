@@ -17,6 +17,7 @@
 		3E5D549621AB751E00902649 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549521AB751E00902649 /* RoundedShadowView.swift */; };
 		3E5D549821AB761800902649 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549721AB761800902649 /* CircleView.swift */; };
 		3E5D549A21AB775B00902649 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549921AB775B00902649 /* RoundedShadowButton.swift */; };
+		3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549B21ABAA2900902649 /* UIViewShadow.swift */; };
 		885EA78154D858C39841DD79 /* Pods_DRVN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		3E5D549521AB751E00902649 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		3E5D549721AB761800902649 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		3E5D549921AB775B00902649 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		3E5D549B21ABAA2900902649 /* UIViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadow.swift; sourceTree = "<group>"; };
 		667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRVN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E755962F0A54DE0A3181BA /* Pods-DRVN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.debug.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF3778BBA14744C2998CC74 /* Pods-DRVN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.release.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				3E5D549521AB751E00902649 /* RoundedShadowView.swift */,
 				3E5D549721AB761800902649 /* CircleView.swift */,
 				3E5D549921AB775B00902649 /* RoundedShadowButton.swift */,
+				3E5D549B21ABAA2900902649 /* UIViewShadow.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				3E5D549821AB761800902649 /* CircleView.swift in Sources */,
 				3E5D549421AB741C00902649 /* RoundedImageView.swift in Sources */,
 				3E5D549021AB712400902649 /* GradientView.swift in Sources */,
+				3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */,
 				3E5D549621AB751E00902649 /* RoundedShadowView.swift in Sources */,
 				3E5D549221AB738E00902649 /* MainVC.swift in Sources */,
 				3E1CFDAA21AB2AAB001B4E83 /* AppDelegate.swift in Sources */,
