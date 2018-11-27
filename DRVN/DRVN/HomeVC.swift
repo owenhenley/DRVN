@@ -1,5 +1,5 @@
 //
-//  MainVC.swift
+//  HomeVC.swift
 //  DRVN
 //
 //  Created by Owen Henley on 11/25/18.
@@ -9,20 +9,26 @@
 import UIKit
 import MapKit
 
-class MainVC: UIViewController {
+class HomeVC: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var requestRideButton: RoundedShadowButton!
     
+    var slideOutMenuDelegate: SlideOutMenuDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self
+    }
+    
+    @IBAction func menuTapped(_ sender: Any) {
+        slideOutMenuDelegate?.addMenuView()
     }
     @IBAction func requestRideTapped(_ sender: Any) {
         requestRideButton.animateButton(shouldLoad: true, with: nil)
     }
 }
 
-extension MainVC: MKMapViewDelegate {
+extension HomeVC: MKMapViewDelegate {
     
 }

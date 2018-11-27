@@ -29,7 +29,7 @@ class RoundedShadowButton: UIButton {
         // Set up Activity Monitor
         let activityIndicator = UIActivityIndicatorView()
         activityIndicator.style = .whiteLarge
-        activityIndicator.color = .darkGray
+        activityIndicator.color = .black
         activityIndicator.alpha = 0.0
         activityIndicator.hidesWhenStopped = true
         activityIndicator.tag = 15
