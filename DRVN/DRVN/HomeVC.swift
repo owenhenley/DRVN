@@ -14,7 +14,7 @@ class HomeVC: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var requestRideButton: RoundedShadowButton!
     
-    var slideOutMenuDelegate: SlideOutMenuDelegate?
+    var slideOutMenuDelegate: CenterVCDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func menuTapped(_ sender: Any) {
-        slideOutMenuDelegate?.addMenuView()
+        slideOutMenuDelegate?.toggleLeftPanel()
     }
     @IBAction func requestRideTapped(_ sender: Any) {
         requestRideButton.animateButton(shouldLoad: true, with: nil)

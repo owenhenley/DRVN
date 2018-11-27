@@ -18,10 +18,9 @@
 		3E5D549821AB761800902649 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549721AB761800902649 /* CircleView.swift */; };
 		3E5D549A21AB775B00902649 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549921AB775B00902649 /* RoundedShadowButton.swift */; };
 		3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549B21ABAA2900902649 /* UIViewShadow.swift */; };
-		3EA80E6121ACCB4100B9F5F0 /* SlideOutMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA80E6021ACCB4100B9F5F0 /* SlideOutMenu.storyboard */; };
-		3EA80E6321ACCCB100B9F5F0 /* SlideOutMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6221ACCCB100B9F5F0 /* SlideOutMenuVC.swift */; };
-		3EA80E6521ACCD3600B9F5F0 /* MenuContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6421ACCD3600B9F5F0 /* MenuContainerVC.swift */; };
-		3EA80E6821ACD00900B9F5F0 /* SlideOutMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6721ACD00900B9F5F0 /* SlideOutMenuDelegate.swift */; };
+		3EA80E6321ACCCB100B9F5F0 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */; };
+		3EA80E6821ACD00900B9F5F0 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */; };
+		3EF80A5221ADE3B9006E4989 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */; };
 		885EA78154D858C39841DD79 /* Pods_DRVN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,10 +38,9 @@
 		3E5D549721AB761800902649 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		3E5D549921AB775B00902649 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		3E5D549B21ABAA2900902649 /* UIViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadow.swift; sourceTree = "<group>"; };
-		3EA80E6021ACCB4100B9F5F0 /* SlideOutMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SlideOutMenu.storyboard; sourceTree = "<group>"; };
-		3EA80E6221ACCCB100B9F5F0 /* SlideOutMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenuVC.swift; sourceTree = "<group>"; };
-		3EA80E6421ACCD3600B9F5F0 /* MenuContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContainerVC.swift; sourceTree = "<group>"; };
-		3EA80E6721ACD00900B9F5F0 /* SlideOutMenuDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenuDelegate.swift; sourceTree = "<group>"; };
+		3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRVN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E755962F0A54DE0A3181BA /* Pods-DRVN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.debug.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF3778BBA14744C2998CC74 /* Pods-DRVN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.release.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,8 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				3E5D549121AB738E00902649 /* HomeVC.swift */,
-				3EA80E6221ACCCB100B9F5F0 /* SlideOutMenuVC.swift */,
-				3EA80E6421ACCD3600B9F5F0 /* MenuContainerVC.swift */,
+				3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */,
+				3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -142,7 +140,6 @@
 			children = (
 				3E1CFDAD21AB2AAC001B4E83 /* LaunchScreen.storyboard */,
 				3E1CFDA521AB2AAB001B4E83 /* HomeScreen.storyboard */,
-				3EA80E6021ACCB4100B9F5F0 /* SlideOutMenu.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -160,7 +157,7 @@
 		3EA80E6621ACCFE800B9F5F0 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				3EA80E6721ACD00900B9F5F0 /* SlideOutMenuDelegate.swift */,
+				3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -243,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA80E6121ACCB4100B9F5F0 /* SlideOutMenu.storyboard in Resources */,
 				3E1CFDAF21AB2AAC001B4E83 /* LaunchScreen.storyboard in Resources */,
 				3E1CFDA721AB2AAB001B4E83 /* HomeScreen.storyboard in Resources */,
 				3E1CFDAC21AB2AAC001B4E83 /* Assets.xcassets in Resources */,
@@ -340,9 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA80E6821ACD00900B9F5F0 /* SlideOutMenuDelegate.swift in Sources */,
+				3EA80E6821ACD00900B9F5F0 /* CenterVCDelegate.swift in Sources */,
 				3E5D549A21AB775B00902649 /* RoundedShadowButton.swift in Sources */,
-				3EA80E6521ACCD3600B9F5F0 /* MenuContainerVC.swift in Sources */,
 				3E5D549821AB761800902649 /* CircleView.swift in Sources */,
 				3E5D549421AB741C00902649 /* RoundedImageView.swift in Sources */,
 				3E5D549021AB712400902649 /* GradientView.swift in Sources */,
@@ -350,7 +345,8 @@
 				3E5D549621AB751E00902649 /* RoundedShadowView.swift in Sources */,
 				3E5D549221AB738E00902649 /* HomeVC.swift in Sources */,
 				3E1CFDAA21AB2AAB001B4E83 /* AppDelegate.swift in Sources */,
-				3EA80E6321ACCCB100B9F5F0 /* SlideOutMenuVC.swift in Sources */,
+				3EA80E6321ACCCB100B9F5F0 /* LeftSidePanelVC.swift in Sources */,
+				3EF80A5221ADE3B9006E4989 /* ContainerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

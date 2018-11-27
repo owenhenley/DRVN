@@ -13,12 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    fileprivate var containerVC = MenuContainerVC()
-
+    /////////////////// Setup Menu Slide Out /////////////////////////////////
+    fileprivate var containerVC = ContainerVC()
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        containerVC = MenuContainerVC()
+        containerVC = ContainerVC()
         window?.rootViewController = containerVC
         window?.makeKeyAndVisible()
+    /////////////////////////////////////////////////////////////////////////
         
         return true
     }

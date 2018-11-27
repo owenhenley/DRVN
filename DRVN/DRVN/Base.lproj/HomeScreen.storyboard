@@ -208,6 +208,89 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="136.69950738916256"/>
         </scene>
+        <!--Left Side PanelVC-->
+        <scene sceneID="H52-Tj-8op">
+            <objects>
+                <viewController storyboardIdentifier="LeftSidePanelVC" id="3UA-00-wZ0" customClass="LeftSidePanelVC" customModule="DRVN" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rbv-A9-oHF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9N-6U-pGY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RNq-kQ-ky4">
+                                        <rect key="frame" x="20.000000000000004" y="75.666666666666671" width="63.333333333333343" height="28.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="RNq-kQ-ky4" firstAttribute="centerY" secondItem="g9N-6U-pGY" secondAttribute="centerY" constant="25" id="ZU5-MZ-DGW"/>
+                                    <constraint firstAttribute="height" constant="130" id="d4a-Tb-Lsa"/>
+                                    <constraint firstItem="RNq-kQ-ky4" firstAttribute="leading" secondItem="g9N-6U-pGY" secondAttribute="leading" constant="20" id="ht9-zx-BGU"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Rcb-Rt-Jyh">
+                                <rect key="frame" x="16" y="170" width="97" height="180"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dud-ew-5lT">
+                                        <rect key="frame" x="0.0" y="0.0" width="97" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <state key="normal" title="Payment">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-8d-GYd">
+                                        <rect key="frame" x="0.0" y="47" width="97" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <state key="normal" title="Your Trips">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2V-aS-1mH">
+                                        <rect key="frame" x="0.0" y="94" width="97" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <state key="normal" title="Help">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1i-BY-LSu">
+                                        <rect key="frame" x="0.0" y="141" width="97" height="39"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <state key="normal" title="Settings">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVF-h8-CxG">
+                                <rect key="frame" x="16" y="699" width="144" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                <state key="normal" title="Sign In / Log In">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KVF-h8-CxG" firstAttribute="leading" secondItem="kx9-jO-JCk" secondAttribute="leading" constant="16" id="NiL-Ob-u42"/>
+                            <constraint firstItem="Rcb-Rt-Jyh" firstAttribute="top" secondItem="g9N-6U-pGY" secondAttribute="bottom" constant="40" id="TFN-uX-syt"/>
+                            <constraint firstItem="Rcb-Rt-Jyh" firstAttribute="leading" secondItem="kx9-jO-JCk" secondAttribute="leading" constant="16" id="W7a-oB-RDU"/>
+                            <constraint firstItem="g9N-6U-pGY" firstAttribute="leading" secondItem="kx9-jO-JCk" secondAttribute="leading" id="hXq-4l-z5L"/>
+                            <constraint firstItem="g9N-6U-pGY" firstAttribute="trailing" secondItem="kx9-jO-JCk" secondAttribute="trailing" id="n6x-85-DTu"/>
+                            <constraint firstItem="kx9-jO-JCk" firstAttribute="bottom" secondItem="KVF-h8-CxG" secondAttribute="bottom" constant="40" id="sMs-3u-vuR"/>
+                            <constraint firstItem="g9N-6U-pGY" firstAttribute="top" secondItem="rbv-A9-oHF" secondAttribute="top" id="ydz-sh-3YP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kx9-jO-JCk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AbQ-ip-PcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="882" y="137"/>
+        </scene>
     </scenes>
     <resources>
         <image name="centerMapBtn" width="62" height="62"/>

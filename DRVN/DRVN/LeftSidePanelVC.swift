@@ -8,10 +8,9 @@
 
 import UIKit
 
-class SlideOutMenuVC: UIViewController {
+class LeftSidePanelVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 }
