@@ -6,6 +6,8 @@
 //  Copyright © 2018 Owen Henley. All rights reserved.
 //
 
+// NEEDS REFACTRING
+
 import UIKit
 import QuartzCore
 
@@ -135,9 +137,7 @@ extension ContainerVC: CenterVCDelegate {
         whiteCoverView.tag = 25
         
         self.centerController.view.addSubview(whiteCoverView)
-        UIView.animate(withDuration: 0.2) {
-            whiteCoverView.alpha = 0.7
-        }
+        whiteCoverView.fadeTo(alphaValue: 0.7, withDuration: 0.2)
         
         tapGesture = UITapGestureRecognizer(target: self, action: #selector(animateLeftPanel(shouldExpand:)))
         tapGesture.numberOfTapsRequired = 1

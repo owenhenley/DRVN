@@ -21,6 +21,9 @@
 		3EA80E6321ACCCB100B9F5F0 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */; };
 		3EA80E6821ACD00900B9F5F0 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */; };
 		3EF80A5221ADE3B9006E4989 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */; };
+		3EF80A5521ADFF4A006E4989 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */; };
+		3EF80A5721AE0577006E4989 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5621AE0577006E4989 /* LoginVC.swift */; };
+		3EF80A5921AE05B6006E4989 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF80A5821AE05B6006E4989 /* LoginScreen.storyboard */; };
 		885EA78154D858C39841DD79 /* Pods_DRVN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +44,9 @@
 		3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		3EF80A5621AE0577006E4989 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		3EF80A5821AE05B6006E4989 /* LoginScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
 		667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRVN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E755962F0A54DE0A3181BA /* Pods-DRVN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.debug.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF3778BBA14744C2998CC74 /* Pods-DRVN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.release.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +89,7 @@
 				3E1CFD9921AB2AAB001B4E83 /* Models */,
 				3E1CFD9C21AB2AAB001B4E83 /* Controllers */,
 				3E1CFDA321AB2AAB001B4E83 /* Views */,
+				3EF80A5321ADFF0B006E4989 /* Extensions */,
 				3E1CFDA821AB2AAB001B4E83 /* Resources */,
 			);
 			path = DRVN;
@@ -117,6 +124,7 @@
 				3E5D549121AB738E00902649 /* HomeVC.swift */,
 				3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */,
 				3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */,
+				3EF80A5621AE0577006E4989 /* LoginVC.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 		3E1CFDA421AB2AAB001B4E83 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				3EF80A5821AE05B6006E4989 /* LoginScreen.storyboard */,
 				3E1CFDAD21AB2AAC001B4E83 /* LaunchScreen.storyboard */,
 				3E1CFDA521AB2AAB001B4E83 /* HomeScreen.storyboard */,
 			);
@@ -160,6 +169,14 @@
 				3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */,
 			);
 			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3EF80A5321ADFF0B006E4989 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		6CAD65ED96120F776E057F13 /* Pods */ = {
@@ -242,6 +259,7 @@
 			files = (
 				3E1CFDAF21AB2AAC001B4E83 /* LaunchScreen.storyboard in Resources */,
 				3E1CFDA721AB2AAB001B4E83 /* HomeScreen.storyboard in Resources */,
+				3EF80A5921AE05B6006E4989 /* LoginScreen.storyboard in Resources */,
 				3E1CFDAC21AB2AAC001B4E83 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +362,8 @@
 				3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */,
 				3E5D549621AB751E00902649 /* RoundedShadowView.swift in Sources */,
 				3E5D549221AB738E00902649 /* HomeVC.swift in Sources */,
+				3EF80A5521ADFF4A006E4989 /* UIView+Ext.swift in Sources */,
+				3EF80A5721AE0577006E4989 /* LoginVC.swift in Sources */,
 				3E1CFDAA21AB2AAB001B4E83 /* AppDelegate.swift in Sources */,
 				3EA80E6321ACCCB100B9F5F0 /* LeftSidePanelVC.swift in Sources */,
 				3EF80A5221ADE3B9006E4989 /* ContainerVC.swift in Sources */,

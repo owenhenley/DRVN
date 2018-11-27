@@ -53,9 +53,7 @@ class RoundedShadowButton: UIButton {
                     activityIndicator.startAnimating()
                     // Show activity indicator
                     activityIndicator.center = CGPoint(x: self.frame.width / 2 + 1.5, y: self.frame.height / 2 + 1.5)
-                    UIView.animate(withDuration: 0.2, animations: {
-                        activityIndicator.alpha = 1
-                    })
+                    activityIndicator.fadeTo(alphaValue: 1.0, withDuration: 0.2)
                     self.isUserInteractionEnabled = false
                 }
             }
