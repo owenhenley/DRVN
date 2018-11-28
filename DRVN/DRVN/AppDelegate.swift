@@ -7,19 +7,26 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    /////////////////// Setup Menu Slide Out /////////////////////////////////
     fileprivate var containerVC = ContainerVC()
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+        /////////////////// Setup Slide Out Menu /////////////////////////////////
         containerVC = ContainerVC()
         window?.rootViewController = containerVC
         window?.makeKeyAndVisible()
-    /////////////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////
+        
+        /////////////////////////////// Firebase /////////////////////////////////
+        FirebaseApp.configure()
+        
+        /////////////////////////////////////////////////////////////////////////
         
         return true
     }

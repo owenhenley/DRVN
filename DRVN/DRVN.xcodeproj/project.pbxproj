@@ -24,6 +24,9 @@
 		3EF80A5521ADFF4A006E4989 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */; };
 		3EF80A5721AE0577006E4989 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5621AE0577006E4989 /* LoginVC.swift */; };
 		3EF80A5921AE05B6006E4989 /* LoginScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF80A5821AE05B6006E4989 /* LoginScreen.storyboard */; };
+		3EF80A5B21AE11BF006E4989 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EF80A5A21AE11BF006E4989 /* GoogleService-Info.plist */; };
+		3EF80A5E21AE13C2006E4989 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5D21AE13C2006E4989 /* DataService.swift */; };
+		3EF80A6021AE1471006E4989 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5F21AE1471006E4989 /* Constants.swift */; };
 		885EA78154D858C39841DD79 /* Pods_DRVN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,9 @@
 		3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		3EF80A5621AE0577006E4989 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		3EF80A5821AE05B6006E4989 /* LoginScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
+		3EF80A5A21AE11BF006E4989 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3EF80A5D21AE13C2006E4989 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3EF80A5F21AE1471006E4989 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		667657F1ABCC0C0C91E0CDCE /* Pods_DRVN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRVN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E755962F0A54DE0A3181BA /* Pods-DRVN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.debug.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.debug.xcconfig"; sourceTree = "<group>"; };
 		FBF3778BBA14744C2998CC74 /* Pods-DRVN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRVN.release.xcconfig"; path = "Target Support Files/Pods-DRVN/Pods-DRVN.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 		3E1CFD9821AB2AAB001B4E83 /* DRVN */ = {
 			isa = PBXGroup;
 			children = (
+				3EF80A5C21AE13B0006E4989 /* Services */,
 				3EA80E6621ACCFE800B9F5F0 /* Protocols */,
 				3E1CFD9921AB2AAB001B4E83 /* Models */,
 				3E1CFD9C21AB2AAB001B4E83 /* Controllers */,
@@ -158,7 +165,9 @@
 			children = (
 				3E1CFDB021AB2AAC001B4E83 /* Info.plist */,
 				3E1CFDAB21AB2AAC001B4E83 /* Assets.xcassets */,
+				3EF80A5A21AE11BF006E4989 /* GoogleService-Info.plist */,
 				3E1CFDA921AB2AAB001B4E83 /* AppDelegate.swift */,
+				3EF80A5F21AE1471006E4989 /* Constants.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -177,6 +186,14 @@
 				3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3EF80A5C21AE13B0006E4989 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3EF80A5D21AE13C2006E4989 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		6CAD65ED96120F776E057F13 /* Pods */ = {
@@ -259,6 +276,7 @@
 			files = (
 				3E1CFDAF21AB2AAC001B4E83 /* LaunchScreen.storyboard in Resources */,
 				3E1CFDA721AB2AAB001B4E83 /* HomeScreen.storyboard in Resources */,
+				3EF80A5B21AE11BF006E4989 /* GoogleService-Info.plist in Resources */,
 				3EF80A5921AE05B6006E4989 /* LoginScreen.storyboard in Resources */,
 				3E1CFDAC21AB2AAC001B4E83 /* Assets.xcassets in Resources */,
 			);
@@ -357,9 +375,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EA80E6821ACD00900B9F5F0 /* CenterVCDelegate.swift in Sources */,
+				3EF80A5E21AE13C2006E4989 /* DataService.swift in Sources */,
 				3E5D549A21AB775B00902649 /* RoundedShadowButton.swift in Sources */,
 				3E5D549821AB761800902649 /* CircleView.swift in Sources */,
 				3E5D549421AB741C00902649 /* RoundedImageView.swift in Sources */,
+				3EF80A6021AE1471006E4989 /* Constants.swift in Sources */,
 				3E5D549021AB712400902649 /* GradientView.swift in Sources */,
 				3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */,
 				3E5D549621AB751E00902649 /* RoundedShadowView.swift in Sources */,
