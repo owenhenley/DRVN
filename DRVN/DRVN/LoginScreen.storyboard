@@ -84,6 +84,9 @@
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits"/>
+                                                            <connections>
+                                                                <outlet property="delegate" destination="Zna-dI-TWp" id="hJu-St-i1x"/>
+                                                            </connections>
                                                         </textField>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nep-Xf-Zdj">
                                                             <rect key="frame" x="0.0" y="70" width="315" height="50"/>
@@ -93,6 +96,9 @@
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                            <connections>
+                                                                <outlet property="delegate" destination="Zna-dI-TWp" id="Zia-g2-hwL"/>
+                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -114,6 +120,9 @@
                                             <state key="normal" title="Login / Sign Up">
                                                 <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="signInTapped:" destination="Zna-dI-TWp" eventType="touchUpInside" id="qnY-I3-MBZ"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -143,6 +152,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lSw-NO-huh"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTF" destination="YBg-Ol-8bC" id="qxG-a9-Oya"/>
+                        <outlet property="loginButton" destination="KHx-hg-A3h" id="kMd-Vp-ONg"/>
+                        <outlet property="passwordTF" destination="nep-Xf-Zdj" id="yTZ-Sd-l2W"/>
+                        <outlet property="segmentedControl" destination="Dz4-Zi-qZy" id="95P-SC-cE2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWc-QU-ghX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

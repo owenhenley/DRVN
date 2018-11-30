@@ -20,6 +20,7 @@
 		3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D549B21ABAA2900902649 /* UIViewShadow.swift */; };
 		3EA80E6321ACCCB100B9F5F0 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */; };
 		3EA80E6821ACD00900B9F5F0 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */; };
+		3ECC34B921B1FB8F0029B498 /* Firebase+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC34B821B1FB8F0029B498 /* Firebase+Ext.swift */; };
 		3EF80A5221ADE3B9006E4989 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */; };
 		3EF80A5521ADFF4A006E4989 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */; };
 		3EF80A5721AE0577006E4989 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF80A5621AE0577006E4989 /* LoginVC.swift */; };
@@ -46,6 +47,7 @@
 		3E5D549B21ABAA2900902649 /* UIViewShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewShadow.swift; sourceTree = "<group>"; };
 		3EA80E6221ACCCB100B9F5F0 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		3EA80E6721ACD00900B9F5F0 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
+		3ECC34B821B1FB8F0029B498 /* Firebase+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Ext.swift"; sourceTree = "<group>"; };
 		3EF80A5121ADE3B9006E4989 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
 		3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		3EF80A5621AE0577006E4989 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				3EF80A5421ADFF4A006E4989 /* UIView+Ext.swift */,
+				3ECC34B821B1FB8F0029B498 /* Firebase+Ext.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				3E5D549C21ABAA2900902649 /* UIViewShadow.swift in Sources */,
 				3E5D549621AB751E00902649 /* RoundedShadowView.swift in Sources */,
 				3E5D549221AB738E00902649 /* HomeVC.swift in Sources */,
+				3ECC34B921B1FB8F0029B498 /* Firebase+Ext.swift in Sources */,
 				3EF80A5521ADFF4A006E4989 /* UIView+Ext.swift in Sources */,
 				3EF80A5721AE0577006E4989 /* LoginVC.swift in Sources */,
 				3E1CFDAA21AB2AAB001B4E83 /* AppDelegate.swift in Sources */,

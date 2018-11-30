@@ -10,3 +10,4 @@ import Foundation
 import Firebase
 
 let FIRESTORE = Firestore.firestore()
+let AUTH = Auth.auth()
